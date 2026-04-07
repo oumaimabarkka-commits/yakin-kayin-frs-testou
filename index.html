@@ -11,7 +11,7 @@ input, select{ margin-right:10px; padding:5px; }
 .header{ display:flex; align-items:center; gap:15px; background:#f8f8f8; padding:10px; border-radius:8px; margin-bottom:10px; }
 .legend{ background:white; padding:10px; border-radius:8px; box-shadow:0 0 5px rgba(0,0,0,0.3); line-height:25px; }
 .legend span:hover{ background:#eee; cursor:pointer; }
-.legend div{ display:inline-block; vertical-align:top; margin-right:20px; }
+.slider-container{ margin-top:10px; }
 </style>
 </head>
 <body>
@@ -26,6 +26,10 @@ Fournisseur : <select id="filtreNom"><option value="">Tous</option></select>
 Ville : <select id="filtreVille"><option value="">Toutes</option></select>
 CP : <select id="filtreCP"><option value="">Tous</option></select>
 Produit : <select id="filtreProduit"><option value="">Tous</option></select>
+<div class="slider-container">
+Distance (km) : <input type="range" id="distanceSlider" min="0" max="1000" value="1000" step="10" oninput="updateDistanceValue()">
+<span id="distanceValue">1000 km</span>
+</div>
 <button onclick="filtrer()">Filtrer</button>
 <button onclick="resetMap()">Reset</button>
 </div>
@@ -38,166 +42,174 @@ Produit : <select id="filtreProduit"><option value="">Tous</option></select>
 <script>
 // Carte
 var ileDeFranceBounds=[[48.0,1.5],[49.2,3.5]];
-var map=L.map('map',{ maxBounds: ileDeFranceBounds, maxBoundsViscosity:1 }).setView([48.85,2.35],10);
+var map=L.map('map',{maxBounds: ileDeFranceBounds,maxBoundsViscosity:1}).setView([48.85,2.35],10);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{ attribution:'© OpenStreetMap' }).addTo(map);
 L.rectangle(ileDeFranceBounds,{ color:"red", weight:4, fill:false }).addTo(map);
 
-var markers=[];
+var markers=[]; 
 var fournisseursSet = new Set();
 var villesSet = new Set();
 var cpsSet = new Set();
 var produitsSet = new Set();
+var villeCoords={};
+var cpCoords={};
 
 // Icônes
 function getIcon(color){
-return new L.Icon({
-iconUrl:'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-'+color+'.png',
-shadowUrl:'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
-iconSize:[25,41],
-iconAnchor:[12,41]
-});
+  return new L.Icon({
+    iconUrl:'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-'+color+'.png',
+    shadowUrl:'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
+    iconSize:[25,41],
+    iconAnchor:[12,41]
+  });
 }
 
-// Couleurs uniques pour 28 fournisseurs
-var colors = ["blue","red","green","orange","violet","yellow","black","grey",
-"darkblue","darkred","darkgreen","darkorange","darkviolet","cadetblue","pink","lightgreen",
-"lightblue","lightgrey","purple","gold","cyan","magenta","lime","brown","navy","teal","coral","salmon"];
-
-// Fournisseurs avec emojis
-var fournisseurs = [ 
-"🔵 Loxam", "🔴 Point P", "🟢 Raboni", "🟠 Cemex", "🟣 CAUPAMAT CADENZ", "🟡 Tersen", 
-"⚫ pum", "⚪ YPREMA", "🔵 Fransbonhomme", "🔴 BSM", "🟢 SODEXTRA", "🟠 COLBER", 
-"⚪ SOL 78", "🔵 SPME", "🟠 VIACOV", "⚫ Bouvelot TP", "🟣 CHEUTIN", "🟢 GO POMPE", 
-"🔵 SNB", "🔴 EVA INDUSTRIES", "🟢 EVO LOCATION", "🟠 UTD", "🟣 SCIABBARRASI RENT", 
-"🟡 LM DISTRIBUTION", "⚪ IDF MARQUAGE", "🔵 EUROPIERRE", "🔴 RFM", "🟢 ATPL CASELAS"
-];
-
-// Retirer emojis pour mapping icônes
-var fournisseurNames = fournisseurs.map(f => f.replace(/^[^\w]*\s*/,""));
-
-// Assigner couleur unique à chaque fournisseur
-var fournisseurIcons = {};
-fournisseurNames.forEach((f,i)=>{ fournisseurIcons[f]=getIcon(colors[i]); });
+// Fournisseurs et icônes
+var fournisseurIcons={
+"Loxam":getIcon("blue"),"Point P":getIcon("red"),"Raboni":getIcon("green"),"Cemex":getIcon("orange"),
+"CAUPAMAT CADENZ":getIcon("violet"),"Tersen":getIcon("yellow"),"pum":getIcon("black"),"YPREMA":getIcon("grey"),
+"Fransbonhomme":getIcon("blue"),"BSM":getIcon("red"),"SODEXTRA":getIcon("green"),"COLBER":getIcon("orange"),
+"SOL 78":getIcon("grey"),"SPME":getIcon("blue"),"VIACOV":getIcon("orange"),"Bouvelot TP":getIcon("black"),
+"CHEUTIN":getIcon("violet"),"GO POMPE":getIcon("green"),"SNB":getIcon("blue"),"EVA INDUSTRIES":getIcon("red"),
+"EVO LOCATION":getIcon("green"),"UTD":getIcon("orange"),"SCIABBARRASI RENT":getIcon("violet"),"LM DISTRIBUTION":getIcon("yellow"),
+"IDF MARQUAGE":getIcon("grey"),"EUROPIERRE":getIcon("blue"),"RFM":getIcon("red"),"ATPL CASELAS":getIcon("green")
+};
 var defaultIcon=getIcon("grey");
 
 // Normalisation
-function normalize(str){ return str ? str.normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim().toLowerCase() : ""; }
+function normalize(str){return str ? str.normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim().toLowerCase() : "";}
 
 // Charger CSV
-fetch("./data.csv").then(r => r.text()).then(text => {
-Papa.parse(text,{
-header:true,
-skipEmptyLines:true,
-complete:function(results){
-results.data.forEach(row=>{
-var cleanRow={};
-for(let key in row){ cleanRow[normalize(key)] = row[key]; }
-row = cleanRow;
+fetch("./data.csv").then(r=>r.text()).then(text=>{
+  Papa.parse(text,{
+    header:true,
+    skipEmptyLines:true,
+    complete:function(results){
+      results.data.forEach(row=>{
+        var cleanRow={}; for(let key in row){ cleanRow[normalize(key)] = row[key]; } row = cleanRow;
+        var lat=parseFloat(row["latitude"]?.replace(",",".")); 
+        var lng=parseFloat(row["longitude"]?.replace(",",".")); 
+        if(isNaN(lat)||isNaN(lng)) return;
 
-var lat = parseFloat(row["latitude"]?.replace(",", "."));
-var lng = parseFloat(row["longitude"]?.replace(",", "."));
-if (isNaN(lat) || isNaN(lng)) return;
+        var fournisseur=row["fournisseur"]?.trim();
+        var ville=row["ville"]?.trim();
+        var cp=row["cp"]?.trim();
+        var produit=row["produit"]?.trim();
 
-var fournisseur = row["fournisseur"]?.trim();
-var ville = row["ville"]?.trim();
-var cp = row["cp"]?.trim();
-var produit = row["produit"]?.trim();
+        if(fournisseur) fournisseursSet.add(fournisseur);
+        if(ville){
+          villesSet.add(ville);
+          if(!villeCoords[ville]) villeCoords[ville]=[];
+          villeCoords[ville].push([lat,lng]);
+        }
+        if(cp){
+          cpsSet.add(cp);
+          if(!cpCoords[cp]) cpCoords[cp]=[];
+          cpCoords[cp].push([lat,lng]);
+        }
+        if(produit) produitsSet.add(produit);
 
-if(fournisseur) fournisseursSet.add(fournisseur);
-if(ville) villesSet.add(ville);
-if(cp) cpsSet.add(cp);
-if(produit) produitsSet.add(produit);
+        var popup = `<b>Fournisseur :</b> ${fournisseur||""}<br><b>Agence :</b> ${row["nom de l'agence"]||""}<br><b>Adresse :</b> ${row["adresse complete"]||""}<br><b>CP :</b> ${cp||""}<br><b>Ville :</b> ${ville||""}<br><b>Pays :</b> ${row["pays"]||""}<br><b>Email :</b> ${row["email"]||""}<br><b>Produit :</b> ${produit||""}`;
+        var iconChoisie=fournisseurIcons[fournisseur]||defaultIcon;
+        var marker=L.marker([lat,lng],{icon:iconChoisie}).addTo(map).bindPopup(popup);
+        marker.data=row;
+        markers.push(marker);
+      });
 
-var popup = `<b>Fournisseur :</b> ${fournisseur||""}<br>
-<b>Agence :</b> ${row["nom de l'agence"]||""}<br>
-<b>Adresse :</b> ${row["adresse complete"]||""}<br>
-<b>CP :</b> ${cp||""}<br>
-<b>Ville :</b> ${ville||""}<br>
-<b>Pays :</b> ${row["pays"]||""}<br>
-<b>Email :</b> ${row["email"]||""}<br>
-<b>Produit :</b> ${produit||""}`;
-
-var iconChoisie = fournisseurIcons[fournisseur] || defaultIcon;
-var marker = L.marker([lat,lng],{icon: iconChoisie}).addTo(map).bindPopup(popup);
-marker.data = row;
-markers.push(marker);
-});
-
-remplirSelect("filtreNom", fournisseursSet);
-remplirSelect("filtreVille", villesSet);
-remplirSelect("filtreCP", cpsSet);
-remplirSelect("filtreProduit", produitsSet);
-}
-});
+      remplirSelect("filtreNom", fournisseursSet);
+      remplirSelect("filtreVille", villesSet);
+      remplirSelect("filtreCP", cpsSet);
+      remplirSelect("filtreProduit", produitsSet);
+    }
+  });
 });
 
 // Remplir select
 function remplirSelect(id,set){
-var select = document.getElementById(id);
-Array.from(set).sort().forEach(v=>{
-var opt = document.createElement("option");
-opt.value=v; opt.textContent=v;
-select.appendChild(opt);
-});
+  var select=document.getElementById(id);
+  Array.from(set).sort().forEach(v=>{
+    var opt=document.createElement("option"); opt.value=v; opt.textContent=v; select.appendChild(opt);
+  });
 }
 
-// Filtrer
+// Distance km
+function distanceKm(lat1,lon1,lat2,lon2){
+  var R=6371; 
+  var dLat=(lat2-lat1)*Math.PI/180; 
+  var dLon=(lon2-lon1)*Math.PI/180;
+  var a=Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
+  var c=2*Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R*c;
+}
+
+function updateDistanceValue(){
+  document.getElementById("distanceValue").innerText=document.getElementById("distanceSlider").value+" km";
+  filtrer();
+}
+
+// --- FILTRAGE VILLE + CP + DISTANCE ---
 function filtrer(){
-var nom = normalize(document.getElementById("filtreNom").value);
-var ville = normalize(document.getElementById("filtreVille").value);
-var cp = normalize(document.getElementById("filtreCP").value);
-var produit = normalize(document.getElementById("filtreProduit").value);
+  var nom=normalize(document.getElementById("filtreNom").value);
+  var ville=normalize(document.getElementById("filtreVille").value);
+  var cp=normalize(document.getElementById("filtreCP").value);
+  var produit=normalize(document.getElementById("filtreProduit").value);
+  var maxDistance=parseInt(document.getElementById("distanceSlider").value);
 
-markers.forEach(marker=>{
-var data = marker.data;
-var match = true;
-if(nom && !normalize(data["fournisseur"]).includes(nom)) match=false;
-if(ville && !normalize(data["ville"]).includes(ville)) match=false;
-if(cp && !normalize(data["cp"]).includes(cp)) match=false;
-if(produit && normalize(data["produit"])!=produit) match=false;
-if(match) marker.addTo(map); else map.removeLayer(marker);
-});
+  var centre=null;
+
+  // Calcul centre pour distance>0
+  if(maxDistance>0){
+    var latSum=0,lngSum=0,count=0;
+    markers.forEach(marker=>{
+      var mVille=normalize(marker.data["ville"]);
+      var mCP=normalize(marker.data["cp"]);
+      if((!ville || mVille===ville) && (!cp || mCP===cp)){
+        latSum+=parseFloat(marker.data["latitude"].replace(",",".")) || 0;
+        lngSum+=parseFloat(marker.data["longitude"].replace(",",".")) || 0;
+        count++;
+      }
+    });
+    if(count>0) centre=[latSum/count,lngSum/count];
+  }
+
+  markers.forEach(marker=>{
+    var data=marker.data;
+    var match=true;
+
+    if(nom && !normalize(data["fournisseur"]).includes(nom)) match=false;
+    if(ville && normalize(data["ville"])!==ville) match=false;
+    if(cp && normalize(data["cp"])!==cp) match=false;
+    if(produit && normalize(data["produit"])!==produit) match=false;
+
+    if(centre && maxDistance>0){
+      var dist=distanceKm(centre[0],centre[1],parseFloat(data["latitude"].replace(",",".")),parseFloat(data["longitude"].replace(",",".")));
+      if(dist>maxDistance) match=false;
+    }
+
+    if(match) marker.addTo(map);
+    else map.removeLayer(marker);
+  });
 }
 
-// Reset
+// --- RESET ---
 function resetMap(){ location.reload(); }
 
-// Légende
-var legend = L.control({position:'bottomright'});
+// Légende (inchangée)
+var legend=L.control({position:'bottomright'});
 legend.onAdd=function(){
-var div = L.DomUtil.create('div','legend');
-var sortedFournisseurs = fournisseurs.slice().sort((a,b)=>{
-return a.replace(/^[^\w]*\s*/,"").localeCompare(b.replace(/^[^\w]*\s*/,""));
-});
-
-var mid = Math.ceil(sortedFournisseurs.length/2);
-var leftCol = sortedFournisseurs.slice(0, mid);
-var rightCol = sortedFournisseurs.slice(mid);
-
-var leftDiv = document.createElement("div");
-leftCol.forEach(f=>{
-var span = document.createElement("span");
-span.innerHTML = f+"<br>";
-span.style.cursor = "pointer";
-span.onclick = ()=>{ document.getElementById("filtreNom").value = f.replace(/^[^\w]*\s*/,""); filtrer(); };
-leftDiv.appendChild(span);
-});
-div.appendChild(leftDiv);
-
-var rightDiv = document.createElement("div");
-rightCol.forEach(f=>{
-var span = document.createElement("span");
-span.innerHTML = f+"<br>";
-span.style.cursor = "pointer";
-span.onclick = ()=>{ document.getElementById("filtreNom").value = f.replace(/^[^\w]*\s*/,""); filtrer(); };
-rightDiv.appendChild(span);
-});
-div.appendChild(rightDiv);
-
-return div;
+  var div=L.DomUtil.create('div','legend'); div.style.display="flex"; div.style.gap="25px";
+  var colLeft=document.createElement("div"); var colRight=document.createElement("div");
+  var fournisseurs=["🔵 Loxam","🔴 Point P","🟢 Raboni","🟠 Cemex","🟣 CAUPAMAT CADENZ","🟡 Tersen","⚫ pum","⚪ YPREMA",
+  "🔵 Fransbonhomme","🔴 BSM","🟢 SODEXTRA","🟠 COLBER","⚪ SOL 78","🔵 SPME","🟠 VIACOV","⚫ Bouvelot TP",
+  "🟣 CHEUTIN","🟢 GO POMPE","🔵 SNB","🔴 EVA INDUSTRIES","🟢 EVO LOCATION","🟠 UTD","🟣 SCIABBARRASI RENT","🟡 LM DISTRIBUTION",
+  "⚪ IDF MARQUAGE","🔵 EUROPIERRE","🔴 RFM","🟢 ATPL CASELAS"];
+  var half=Math.ceil(fournisseurs.length/2); var left=fournisseurs.slice(0,half); var right=fournisseurs.slice(half);
+  colLeft.innerHTML="<b>Fournisseurs</b><br>";
+  left.forEach(f=>{var span=document.createElement("span"); span.innerHTML=f+"<br>"; span.onclick=()=>{document.getElementById("filtreNom").value=f.substring(2).trim(); filtrer();}; colLeft.appendChild(span);});
+  right.forEach(f=>{var span=document.createElement("span"); span.innerHTML=f+"<br>"; span.onclick=()=>{document.getElementById("filtreNom").value=f.substring(2).trim(); filtrer();}; colRight.appendChild(span);});
+  div.appendChild(colLeft); div.appendChild(colRight); return div;
 };
 legend.addTo(map);
-
 </script>
 </body>
 </html>
