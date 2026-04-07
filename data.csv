@@ -1,0 +1,321 @@
+﻿fournisseur;ID_fournisseurs;Nom de l'agence;CP;ville;region;Pays;adresse complete;"Latitude
+";Longitude;Email;Produit 
+Loxam ;Lo;Corner Loxam - Starmat ADMC;91000;Avrainville;ile de France ;France ;Route Departementale 449, 91630, France;48.560433;2.282966;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Rental Fontenay Tresigny;77000;Fontenay-Tresigny;ile de France ;France ;Z.A.E. Fregy, 77610, France;48.702312;2.88131;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Cremaillères Loxam Laho Tec;93000;Bobigny;ile de France ;France ;109, rue Benoit Frachon, 93000, France;48.901568;2.429485;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Access Paris Nord Aulnay;93000;AULNAY SOUS BOIS;ile de France ;France ;4 Rue Jean Chaptal - ZI De La Garenne, 93600, France;48.94483056;2.483931887;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Access Paris Sud Chilly;91000;Chilly-mazarin;ile de France ;France ;14 Bis Rue Denis Papin - ZA La Vigne Aux Loups, 91380, France;48.7084368;2.3040912;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Starmat Le Holloco;95000;Ezanville;ile de France ;France ;12 avenue Jean Rostand, 95460, France;49.038003;2.342081;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Starmat L'Isle Adam;95000;L'Isle Adam;ile de France ;France ;3 avenue Napoleon 1er, 95290, France;49.127439;2.242507;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Starmat Herblay;95000;Herblay;ile de France ;France ;403 route de conflans, 95220, France;49.00426005;2.1284155;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Republique;75000;Paris;ile de France ;France ;121 Boulevard Richard Lenoir, 75011, France;48.8656592;2.3692127;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Porte Doree;75000;Paris;ile de France ;France ;59 Boulevard Poniatowski, 75012, France;48.8332838;2.4012371;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Access Paris Sud Bondoufle;91000;Bondoufle;ile de France ;France ;22 bis rue Gustave Eiffel, 91070, France;48.622516;2.37635;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricor Maule;78000;Maule;ile de France ;France ;59 Boulevard Paul Barre, 78580, France;48.9120152;1.8531873;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Starmat Arcueil;94000;Arcueil;ile de France ;France ;81 Avenue Paul Vaillant Couturier, 94110, France;48.798651;2.346078;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricorama Nemours;77000;Nemours;ile de France ;France ;21 Rue d'Egreville, 77140, France;48.264775;2.715494;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricomarche Villeneuve;94000;Villeneuve-le-Roi;ile de France ;France ;32 Avenue le Foll, 94290, France;48.7301264;2.430354421;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricorama Orgeval;78000;Orgeval;ile de France ;France ;Route de Quarante Sous, 78630, France;48.93289039;1.966982432;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricorama Villiers;94000;Villiers-sur-Marne;ile de France ;France ;ZAC, Chemin des Boutareines, 94350, France;48.825959;2.545205;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricorama Rambouillet;78000;Rambouillet;ile de France ;France ;26 Rue Gustave Eiffel, 78120, France;48.62693875;1.825694421;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Gedimat Ecuelles;77000;Ecuelles;ile de France ;France ;29 Avenue de Sens, 77250, France;48.3706124;2.8290641;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Castorama Villabe;91000;Villabe;ile de France ;France ;ZAC des Brateaux - 1 rue de la Plaine, 91100, France;48.58842;2.44496;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricocash Mormant;77000;Mormant;ile de France ;France ;rue Lavoisier, 77720, France;48.61365502;2.881806275;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricomarche Dourdan;91000;Dourdan;ile de France ;France ;42 rue Raymond Laubier, 91410, France;48.527135;2.020990597;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Weldom Oncy sur Ecole;91000;Oncy sur Ecole;ile de France ;France ;Grande Rue, 91490, France;48.38881308;2.470104082;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Weldom Breuillet;91000;Breuillet;ile de France ;France ;2 rue du Buisson Rondeau, 91650, France;48.5687476;2.164083174;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Castorama Melun;77000;Melun;ile de France ;France ;Z.a.c du champs de foire, 77000, France;48.5346163;2.6570682;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Castorama Gonesse;95000;Gonesse;ile de France ;France ;Z.I. De Paris Nord Ii, 95700, France;49.0764935;2.5613607;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricorama Mareuil;77000;Mareuil-les-Meaux;ile de France ;France ;10 Avenue de la Haute Borne, 77100, France;48.94015741;2.877620849;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Sèvres;92000;Sevres;ile de France ;France ;9 Grande Rue, 92310, France;48.82702;2.222061;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Porte d'Asnières;75000;Paris;ile de France ;France ;204 Boulevard Malesherbes, 75017, France;48.8897729;2.3041953;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam CITY Noisy-Le-Sec;93000;Noisy le Sec;ile de France ;France ;74 rue de Paris, 93130, France;48.900336;2.452852;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Formation;93000;AULNAY SOUS BOIS;ile de France ;France ;2 rue Jean Chaptal - ZI La Garenne, 93600, France;48.945954;2.482742;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Nemours;77000;Nemours;ile de France ;France ;Route De Lyon, 77140, France;48.3061;2.6841;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Porte de St-Cloud;92000;Boulogne-Billancourt;ile de France ;France ;3 route de la Reine, Manquant, France;48.83853;2.251552;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Porte de Clignancourt;75000;Paris;ile de France ;France ;67 boulevard Ney, 75018, France;48.8976745;2.3397913;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Porte de Brancion;75000;Paris;ile de France ;France ;3 avenue de la Porte Brancion, 75015, France;48.827449;2.301282;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Batignolles;75000;Paris;ile de France ;France ;149 rue de Rome, Manquant, France;48.886434;2.31573;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Grenelle;75000;Paris;ile de France ;France ;95 boulevard de Grenelle, Manquant, France;48.849803;2.296297;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Rosny sous Bois;93000;Rosny Sous Bois;ile de France ;France ;89 Boulevard Alsace Lorraine, 93110, France;48.884545;2.484486;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Morangis;91000;Morangis;ile de France ;France ;6 avenue Gay Lussac - ZI Val - Angle, 91420, France;48.703696;2.341292;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Montparnasse;75000;Paris;ile de France ;France ;50 Boulevard Pasteur, 75015, France;48.8413584;2.3134643;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Roissy;95000;Roissy;ile de France ;France ;6 Route De L'arpenteur - Zone Flexitech, 95700, France;49.01207422;2.517416966;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Coignières;78000;COIGNIERES-MAUREPAS;ile de France ;France ;28 Avenue De La Gare, 78310, France;48.742712;1.917191;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Athis-mons;91000;Athis-Mons;ile de France ;France ;2 Rue du Jacanna - ZI, 91200, France;48.709244;2.386605;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Les Mureaux;78000;Les mureaux;ile de France ;France ;7 Rue Descartes - ZI Des Garennes, 78130, France;48.982224;1.893535;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Arpajon;91000;Arpajon;ile de France ;France ;30 Chemin De Chevreuse - ZA Les Belles Vues 3, 91290, France;48.8849169;2.2050476;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Aulnay sous Bois;93000;AULNAY SOUS BOIS;ile de France ;France ;10 Rue Jean Chaptal - ZI De La Garenne, 93600, France;48.945664;2.483422;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Porte de Bagnolet;93000;Montreuil;ile de France ;France ;202 Boulevard Chanzy, 93100, France;48.8596602;2.423866;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Mantes La Jolie;78000;Limay;ile de France ;France ;10 rue Fernand Forest, 78520, France;48.989507;1.757993;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Nanterre;92000;Nanterre;ile de France ;France ;2 Rue Lavoisier, 92000, France;48.885895;2.23466;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Velizy;78000;Velizy-villacoublay;ile de France ;France ;63 Avenue De L'europe, 78140, France;48.7788607;2.2086485;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Melun Le Mee;77000;Le mee sur seine;ile de France ;France ;Rue Jean Baptiste Colbert, 77350, France;48.55187172;2.630854392;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Mr.Bricolage Angerville;91000;Angerville;ile de France ;France ;8 Rue des Artisans, 91670, France;48.3172994;2.0020053;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricomarche Villecresnes;94000;Villecresnes;ile de France ;France ;54 Rue de Brunoy, 94440, France;48.708269;2.52924;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricomarche Maulette;78000;Maulette;ile de France ;France ;Route de Gambais, 78550, France;48.80028868;1.670401128;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricomarche Milly;91000;Milly-la-Forêt;ile de France ;France ;ZA du Chenet - 4 Rue Des Ormes, 91490, France;48.39749565;2.419667381;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Leroy Merlin Madeleine;75000;Paris;ile de France ;France ;Place de La Madeleine, 75008, France;48.87010945;2.323955075;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Mr.Bricolage Achères;78000;Acheres;ile de France ;France ;Rue W. A. Mozart - ZAC du Chemin neuf, 78260, France;48.971799;2.090038;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Leroy Merlin Rosa Parks;75000;Paris;ile de France ;France ;159 boulevard Macdonald, 75019, France;48.8989112;2.3770354;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Mr.Bricolage Coulommiers;77000;Coulommiers;ile de France ;France ;3 Boulevard De La Marne, 77120, France;48.8034528;3.0889484;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Argenteuil;95000;Argenteuil;ile de France ;France ;176 Route de Pontoise, 95100, France;48.951212;2.205858;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Gennevilliers;92000;Gennevilliers;ile de France ;France ;89 Rue Des Caboeufs, 92230, France;48.9262372;2.3054767;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Paris Quai d'Ivry;94000;Ivry Sur Seine;ile de France ;France ;53 Quai Auguste Deshaies, 94200, France;48.8178909;2.402854;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Epinay / Seine;93000;Epinay sur seine;ile de France ;France ;129/133 Avenue De Lattre De Tassigny, 93800, France;48.95477636;2.312588608;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Rental Meaux;77000;Meaux;ile de France ;France ;10 Rue Jacques Daguerre, 77100, France;48.965539;2.915664;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Aubervilliers;93000;Aubervilliers;ile de France ;France ;55 Bd Felix Faure - Parc du Mauvin, 93300, France;48.903997;2.382632;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Grand Paris;92000;Bagneux;ile de France ;France ;134 avenue Aristide Briand, 92220, France;48.7984257;2.322254;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Rental Goussainville CDG;95000;Goussainville;ile de France ;France ;87 Bd General De Gaulle, 95190, France;49.02434153;2.472470865;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Rental Ste Geneviève;91000;Ste-Genevieve-des-Bois;ile de France ;France ;9, rue du Petit Fief - ZAC Croix Blanche, 91700, France;48.623087;2.340174;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Weldom Etampes;91000;etampes;ile de France ;France ;50 Rue des Lys, 91150, France;48.4404147;2.1368863;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Ste Geneviève;91000;Ste-Genevieve-des-Bois;ile de France ;France ;avenue Des Hurepoix, 91700, France;48.639978;2.341103;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Lognes;77000;Lognes;ile de France ;France ;boulevard Du Segrais, 77185, France;48.83498176;2.653618587;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Montigny;95000;Montigny-Les-Corm.;ile de France ;France ;45 boulevard Victor Bordier, 95370, France;48.990842;2.202017;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Vitry-Sur-Seine;94000;Vitry-Sur-Seine;ile de France ;France ;52 boulevard De Stalingrad, 94400, France;48.7975907;2.3833227;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Castorama Clichy;75000;Paris;ile de France ;France ;2 Rue Forest, 75018, France;48.8849257;2.3294971;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Castorama Claye;77000;Claye Souilly;ile de France ;France ;Rue Jean Monnet, 77410, France;48.95338792;2.663473612;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Daumesnil;75000;Paris;ile de France ;France ;139 avenue Daumesnil, 75012, France;48.8433004;2.3840137;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Beaubourg;75000;Paris;ile de France ;France ;52 rue Rambuteau, 75003, France;48.861547;2.3521334;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Rosny;93000;Rosny Sous Bois;ile de France ;France ;7 rue De Lisbonne - Zac De Nanteuil, 93110, France;48.88046;2.473529;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Madeleine;75000;Paris;ile de France ;France ;Place de La Madeleine, 75008, France;48.87010945;2.323955075;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Mr.Bricolage Achères;78000;Acheres;ile de France ;France ;Rue W.A. Mozart - ZAC Chemin neuf, 78260, France;48.971799;2.090038;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Rosa Parks;75000;Paris;ile de France ;France ;159 boulevard Macdonald, 75019, France;48.8989112;2.3770354;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Trappes;78000;Trappes;ile de France ;France ;50 Rue Roger Hennequin, 78190, France;48.763755;1.983843;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Chelles;77000;Chelles;ile de France ;France ;44 Avenue De La Trentaine, 77500, France;48.869055;2.601681;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Montereau;77000;Montereau-fault-yonne;ile de France ;France ;12 Rue Des Clomarts, 77130, France;48.387783;2.968121;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Casto Clayes sous Bois;78000;Les Clayes sous Bois;ile de France ;France ;ZI du Chemin des Eaux, 78340, France;48.818641;1.98406;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Casto Ormesson;94000;CHENNEVIERES SUR MARNE;ile de France ;France ;CC Pince Vent - ZAC De L'Hippodrome, 94430, France;48.79765;2.541576;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Casto Coignières;78000;COIGNIERES-MAUREPAS;ile de France ;France ;Rue des Louveries - RN 10, 78310, France;48.75152763;1.926228126;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Casto Pierrelaye;95000;Pierrelaye;ile de France ;France ;ZAC Butte Petites Vignes, 95480, France;49.019728;2.161272;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Casto Cormeilles;95000;Cormeilles en Parisis;ile de France ;France ;ZAC Bois Rochefort - Bd Joffre, 95240, France;48.968225;2.199214;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Auriol;75000;Paris;ile de France ;France ;120, boulevard Vincent Auriol, 75013, France;48.83338;2.3627273;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Casto Levallois;92000;Levallois-Perret;ile de France ;France ;4 rue Henri Barbusse, 92300, France;48.8911947;2.2904283;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Saint-Denis;93000;Saint-Denis;ile de France ;France ;rue Henri Delaunay - Zac Cornillon, 93200, France;48.93395;2.359445;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Rueil-Malmaison;92000;Rueil-Malmaison;ile de France ;France ;58 av De Fouilleuse - CC Hauts de Rueil, 92500, France;48.862415;2.1940046;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Saint-Ouen;93000;Saint-Ouen;ile de France ;France ;2 boulevard Victor Hugo, 93400, France;48.9124193;2.3339687;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Bois-D'Arcy;78000;Bois-D'Arcy;ile de France ;France ;avenue Fritz Lang - Zac Croix Bonnet, 78390, France;48.804418;2.019113;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Montsoult;95000;Montsoult;ile de France ;France ;route Nationale 1 - Zi Du Belloy, 95560, France;49.066447;2.298185;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Boulogne;92000;Boulogne-Billancourt;ile de France ;France;46 Boulevard de la République, 92100, France;48.8359;2.2413;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Access Paris Nord Mitry;77000;Mitry-Mory;ile de France ;France;7 Rue René Cassin, 77290, France;48.9835;2.6184;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricorama Viry;91000;Viry-Châtillon;ile de France ;France;106-108 Avenue du Général de Gaulle, 91170, France;48.6716;2.3774;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Bricorama Boulogne;92000;Boulogne-Billancourt;ile de France ;France;701 Avenue du Général Leclerc, 92100, France;48.8350;2.2389;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Weldom Carrières;78000;Carrieres sur Seine;ile de France ;France;11 avenue du Maréchal Juin, 78420, France;48.9090;2.1895;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Starmat Montreuil;93000;Montreuil;ile de France ;France;188 boulevard de la Boissière, 93100, France;48.8647;2.4572;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Castorama Velizy;78000;Velizy;ile de France ;France;Rue andré citroen - ZA VELIZY, 78140, France;48.7803;2.2092;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;LOXAM City MIN Rungis;94000;Chevilly-Larue;ile de France ;France;112 avenue de la Cité - Bâtiment H5, 94550, France;48.7485;2.3538;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Porte de Pantin;75000;Paris;ile de France ;France;176 Avenue Jean Jaurès, 75019, France;48.8895;2.3921;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Wissous;91000;WISSOUS ;ile de France ;France;31 avenue Ampère, 91320, France;48.7318;2.3277;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Paris 14è;75000;Paris;ile de France ;France;132 avenue du Général Leclerc, 75014, France;48.8339;2.3258;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Nation;75000;Paris;ile de France ;France;49 Rue des Pyrénées, 75020, France;48.8556;2.4023;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Leroy Merlin Osny;95000;Osny;ile de France ;France;Ch. Du Poirier Charles Guérin - CC De L'Oseraie, 95520, France;49.0580;2.0604;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Etampes;91000;etampes;ile de France ;France;4 Avenue De La Sablière, 91150, France;48.4352;2.1620;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Pierrelaye;95000;Pierrelaye;ile de France ;France;2 Avenue Du Général Leclerc, 95480, France;49.0217;2.1553;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Mr.Bricolage Paris 14;75000;Paris;ile de France ;France;68-80 Avenue du Maine - Ateliers Gaîté, 75014, France;48.8397;2.3215;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Leroy Merlin Gonesse;95000;Gonesse;ile de France ;France;1 rond point De La Croix Saint-Benoît, 95500, France;48.9910;2.4495;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Beauvallet Blandine;91000;Guillerval;ile de France ;France;Rue du Triquoir - ZAC de la Géode 2, 91690, France;48.3643;2.1315;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam City Porte des Lilas;75000;Paris;ile de France ;France;67 Boulevard Sérurier, 75019, France;48.8782;2.4083;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Sarcelle N1 (Groslay);95000;Groslay;ile de France ;France;1 Route Nationale de Paris à Calais (RN 1), 95410, France;48.9863;2.3489;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Lagny;77000;St thibault des vignes;ile de France ;France;5 rue des Marmousets - ZI Courtillière, 77400, France;48.8712;2.6836;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Rental Villeneuve St Georges;94000;Villeneuve-Saint-Georges;ile de France ;France;Rue des Prés de l'Hôpital - ZI Graviers, 94194, France;48.7321;2.4493;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Rental Conflans;78000;Conflans Sainte Honorine;ile de France ;France;7 rue de l'Activité, 78700, France;48.9983;2.0956;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Rental Collegien;77000;Collegien;ile de France ;France;31 Allée du Clos des Charmes, 77090, France;48.8398;2.6754;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Rental Gennevilliers Ouest;92000;Gennevilliers;ile de France ;France;11, route Des Mercières, 92230, France;48.9279;2.2978;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam TP Paris;77000;MOISSY CRAMAYEL;ile de France ;France;210 Avenue Ampère - RN 6, 77550, France;48.6225;2.6013;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Melun - Cesson;77000;Cesson;ile de France ;France;rue Du Bois Des Saints-Pères, 77240, France;48.5630;2.6065;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Weldom Carrières;78000;Carrieres sur Seine;ile de France ;France;11 avenue du Maréchal Juin, 78420, France;48.9104;2.1787;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Castorama Velizy;78000;Velizy;ile de France ;France;Rue andré citroen - ZA VELIZY, 78140, France;48.7806;2.1919;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Castorama Creteil;94000;Creteil;ile de France ;France;70 Avenue du Maréchal Foch, 94000, France;48.7920;2.4530;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Castorama Fresnes;94000;Fresnes;ile de France ;France;186 Parc Médicis, 94260, France;48.7565;2.3223;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Mantes;78000;Buchelay;ile de France ;France;232 av Du Béarn - Les Docks, 78200, France;48.9890;1.6805;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Beauvallet Blandine;91000;Guillerval;ile de France ;France;Rue du Triquoir - ZAC de la Géode 2, 91690, France;48.3589;2.0662;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Gonesse;95000;Gonesse;ile de France ;France;1 rond point De La Croix St-Benoît, 95500, France;48.9910;2.4495;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Gennevilliers (Laho);92000;Gennevilliers;ile de France ;France;6 Route Du Bassin N° 5, 92230, France;48.9314;2.2876;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Melun Vaux le Penil;77000;VAUX-LE-PENIL;ile de France ;France;1033 Rue Du Maréchal Juin, 77000, France;48.5369;2.6807;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Loxam Rental Villeneuve St Georges;94000;Villeneuve-Saint-Georges;ile de France ;France;Rue des Prés de l'Hôpital, 94194, France;48.7321;2.4493;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Casto Villemomble;93000;Villemomble;ile de France ;France;43 allée du Plateau, 93250, France;48.8836;2.5054;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Casto Les Ulis;91000;Les Ulis;ile de France ;France;6-8 avenue de L'Océanie, 91940, France;48.6810;2.1702;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Casto Les Lilas;93000;Les Lilas;ile de France ;France;15 boulevard de la Liberté, 93260, France;48.8789;2.4181;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - Starmat Montreuil;93000;Montreuil;ile de France ;France;188 boulevard de la Boissière, 93100, France;48.8778;2.4655;mounir.amraoui@loxam.fr;Petits engins
+Loxam ;Lo;Corner Loxam - LM Ivry-Sur-Seine;94000;Ivry Sur Seine;ile de France ;France;2 - 12 rue François Mitterrand, 94200, France;48.8135;2.3837;mounir.amraoui@loxam.fr;Petits engins
+Point P;P;Point P;78000;Le Port Marly;ile de France ;France;21 rue Charles de Gaulle, 78560, France;48.888547;2.1033811;—;Fournitures
+Point P;P;Point P;78000;Saint Arnoult en Yvelines;ile de France ;France;13 rue Stourm, 78730, France;48.5672598;1.9307265;—;Fournitures
+Point P;P;Point P;95000;Argenteuil;ile de France ;France;35 rue Gode, 95100, France;48.958887;2.260479;—;Fournitures
+Point P;P;Point P;95000;Sarcelles;ile de France ;France;42 route Calais, 95200, France;48.977414;2.365953;—;Fournitures
+Point P;P;Point P;95000;Sucy en Brie;ile de France ;France;16 chemin Marais, 94370, France;48.76649918;2.504506044;—;Fournitures
+Point P;P;Point P;78000;Sartrouville;ile de France ;France;74 route Cormeilles, 78500, France;48.949575;2.181336;—;Fournitures
+Point P;P;Point P;78000;Maulette;ile de France ;France;70 rue Vignes, 78550, France;48.7888101;1.6092475;—;Fournitures
+Point P;P;Point P;95000;Bezons;ile de France ;France;17 rue Salvador Allende, 95870, France;48.918635;2.213353;—;Fournitures
+Point P;P;Point P;95000;Belloy en France;ile de France ;France;1 route Paris, 95270, France;49.0949425;2.3609029;—;Fournitures
+Point P;P;Point P;75000;Paris;ile de France ;France;quai Bercy, 75012, France;48.8360572;2.378911124;—;Fournitures
+Point P;P;Point P;95000;Saint Ouen l’Aumône;ile de France ;France;111 rue Paris, 95310, France;49.0372074;2.1203229;—;Fournitures
+Point P;P;Point P;75000;Paris;ile de France ;France;25 quai Ivry, 75013, France;48.826829;2.38596;—;Fournitures
+Point P;P;Point P;93000;Gournay sur Marne;ile de France ;France;rue Paris, 93460, France;48.852448;2.606985;—;Fournitures
+Point P;P;Point P;77000;Varennes sur Seine;ile de France ;France;37 route Petit Fossard, 77130, France;48.367537;2.95738;—;Fournitures
+Point P;P;Point P;78000;Versailles;ile de France ;France;11 rue Porte de Buc, 78000, France;48.7939511;2.1375488;—;Fournitures
+Point P;P;Point P;93000;Noisy le Sec;ile de France ;France;75 rue Parc, 93130, France;48.890528;2.445421;—;Fournitures
+Point P;P;Point P;91000;Corbeil Essonnes;ile de France ;France;53 quai Apport, 91100, France;48.61979665;2.475181036;—;Fournitures
+Point P;P;Point P;93000;Montreuil;ile de France ;France;24 rue Sorins, 93100, France;48.8588594;2.4286756;—;Fournitures
+Point P;P;Point P;77000; ROISSY-EN-BRIE;ile de France ;France;7 route Ozoir Bp 6, 77680, France;48.781857;2.658503;—;Fournitures
+Point P;P;Point P;91000;Arpajon;ile de France ;France;1 route Limours, 91290, France;48.585599;2.244846;—;Fournitures
+Point P;P;Point P;77000;Perthes;ile de France ;France;58 rue Melun, 77930, France;48.479812;2.562286;—;Fournitures
+Point P;P;Point P;95000;Magny en Vexin;ile de France ;France;Zi La Demi Lune route Mantes, 95420, France;49.133362;1.788989;—;Fournitures
+Point P;P;Point P;75000;Paris;ile de France ;France;217 rue Aubervilliers, 75018, France;48.893563;2.330329;—;Fournitures
+Point P;P;Point P;91000;Massy;ile de France ;France;4 route Bonde, 91300, France;48.7213465;2.2804626;—;Fournitures
+Point P;P;Point P;78000;Buchelay;ile de France ;France;5 rue Closeaux, 78200, France;48.9918874;1.6826855;—;Fournitures
+Point P;P;Point P;77000;Claye Souilly;ile de France ;France;4 rue Ernest Sarron, 77410, France;48.9530773;2.6677215;—;Fournitures
+Point P;P;Point P;78000;Carrieres sous Poissy;ile de France ;France;701 rue Reine Blanche, 78955, France;48.941329;2.030112;—;Fournitures
+Point P;P;Point P;91000;Maisse;ile de France ;France;10 route Buno Bonneveaux, 91720, France;48.38935;2.388779;—;Fournitures
+Point P;P;Point P;75000;Paris;ile de France ;France;port Javel Bas, 75015, France;48.840155;2.293559;—;Fournitures
+Point P;P;Point P;91000;Les Ulis;ile de France ;France;avenue Cap Horn, 91940, France;48.67592146;2.198079153;—;Fournitures
+Point P;P;Point P;91000;Mennecy;ile de France ;France;3 rue Victor Grignard, 91540, France;48.5673915;2.4506245;—;Fournitures
+Point P;P;Point P;91000;Morangis;ile de France ;France;15 avenue Froides Bouillies, Zac Portes De Morangis, 91420, France;48.7079392;2.3451426;—;Fournitures
+Point P;P;Point P;95000;Fosses;ile de France ;France;2 rue Ferme St Ladre, 95470, France;49.0996817;2.5282791;—;Fournitures
+Point P;P;Point.P Paris 18;75000;Paris;ile de France ;France;9 boulevard Ney, 75018, France;48.8983076;2.3662565;—;Fournitures
+Point P;P;Point P;93000;Villepinte;ile de France ;France;100 avenue Paul Vaillant Couturier, 93420, France;48.959373;2.533651;—;Fournitures
+Point P;P;Point P;91000;Sainte Genevieve des Bois;ile de France ;France;6 avenue Bout du Plessis, Zac Croix Blanche, 91700, France;48.621518;2.3438926;—;Fournitures
+Point P;P;Point P;93000;Saint-Denis-l'Etoile;ile de France ;France;47 boulevard Anatole France, 93200, France;48.925832;2.351154;—;Fournitures
+Point P;P;Point P;75000;Paris;ile de France ;France;200 quai Jemmapes, 75010, France;48.88047;2.3690318;—;Fournitures
+Point P;P;Point P;91000;Saint Cheron;ile de France ;France;chemin Juiniere, 91530, France;48.55062336;2.114344476;—;Fournitures
+Point P;P;Point P;93000;Livry Gargan;ile de France ;France;51 boulevard Robert Schumann, 93190, France;49.048062;2.493414677;—;Fournitures
+Point P;P;Point P;95000;Pierrelaye;ile de France ;France;256 boulevard Havre, Rte Nationale 14, 95480, France;49.004756;2.175392;—;Fournitures
+Point P;P;Point P Plateforme;95000;Conflans Sainte Honorine;ile de France ;France;quai Confluent, 78700, France;49.00128407;2.072660939;—;Fournitures
+Point P;P;POINT P Beton;77000;Souppes sur Loing;ile de France ;France;ZI route Egreville, 77460, France;48.179126;2.870871;—;Fournitures
+Point P;P; POINT P SAINT MARD;77000;Saint Mard;ile de France ;France;rue Moutiers, 77260, France;48.80002767;2.9971352;—;Fournitures
+Raboni ;Ra;Raboni ATHIS;91000;Athis-Mons;ile de France ;France;170 avenue François Mitterrand RN7 91200 Athis-Mons;48.7110;2.3715;—;Fournitures
+Raboni ;Ra;Raboni BEAUCHAMP;95000;Pierrelaye;ile de France ;France;9 chemin du Parc 95480 Pierrelaye;49.0180719;2.1764392;—;Fournitures
+Raboni ;Ra;Raboni DAMMARIE;77000;Dammarie-les-Lys;ile de France ;France;818 avenue Montaigne 77190 Dammarie-les-Lys;48.521842;2.633076;—;Fournitures
+Raboni ;Ra;Raboni  ETRECHY;91000;Etrechy;ile de France ;France;5 route de Chamarande 91580 Etrechy;48.502961;2.201503;—;Fournitures
+Raboni ;Ra;Raboni IVRY;94000;Ivry Sur Seine;ile de France ;France;25 quai Marcel Boyer 94200 Ivry-sur-Seine;48.8223377;2.3924309;—;Fournitures
+Raboni ;Ra;Raboni LA COURNEUVE;93000;La Courneuve;ile de France ;France;58 avenue Jean Mermoz 93120 La Courneuve;48.932188;2.40471;—;Fournitures
+Raboni ;Ra;Raboni LE PECQ;78000;Le Pecq;ile de France ;France;60 route de Sartrouville 78230 Le Pecq;48.903268;2.114946;—;Fournitures
+Raboni ;Ra;Raboni MENNECY;91000;Mennecy;ile de France ;France;26 rue de Tournenfils 91540 Mennecy;48.570072;2.450969;—;Fournitures
+Raboni ;Ra;Raboni NOISY;93000;Noisy-le-Grand;ile de France ;France;16 rue de la Passerelle 93160 Noisy-le-Grand;48.848291;2.525365;—;Fournitures
+Raboni ;Ra;Raboni PANTIN;75000;Paris;ile de France ;France;25 rue du chemin de fer 75019 Paris;48.899304;2.393482;—;Fournitures
+Raboni ;Ra;Raboni PARIS LECLAIRE;75000;Paris;ile de France ;France;7 rue Jean Leclaire 75017 Paris;48.8940119;2.325599;—;Fournitures
+Raboni ;Ra;Raboni PARIS ROQUETTE;75000;Paris;ile de France ;France;52 rue de la Roquette 75011 Paris;48.8548662;2.3731539;—;Fournitures
+Raboni ;Ra;Raboni PUISEUX;95000;Puiseux-Pontoise;ile de France ;France;Route de Boissy l'Aillerie 95650 Puiseux-Pontoise;49.05880461;2.019470501;—;Fournitures
+Raboni ;Ra;Raboni VARENNES;77000;Varennes sur Seine;ile de France ;France;Rue du Marais du Saule 77130 Varennes-sur-Seine;48.37028094;2.941702608;—;Fournitures
+Raboni ;Ra;Raboni VILLEJUIF;94000;Villejuif;ile de France ;France;81-87 rue Ambroise Croizat 94800 Villejuif;48.801187;2.3581796;—;Fournitures
+Cemex;Cem;Cemex Agence Aulnay sous Bois;93000;AULNAY SOUS BOIS;ile de France ;France;20, RUE BLAISE PASCAL, ZA LES MARDELLES, 93600 AULNAY-SOUS-BOIS;48.949876;2.481682;—;Beton
+Cemex;Cem;Cemex Agence Chennevieres;94000;CHENNEVIERES SUR MARNE;ile de France ;France;ZONE DES BORDES, 13 BIS RUE CONDORCET, 94430 CHENNEVIERES-SUR-MARNE;48.796306;2.545022;—;Beton
+Cemex;Cem;Cemex Agence Chevilly Larue;94000;CHEVILLY-LARUE;ile de France ;France;193, BOULEVARD JEAN MERMOZ, 94550 CHEVILLY-LARUE;48.765516;2.335272;—;Beton
+Cemex;Cem;Cemex Agence Chilly Mazarin;91000;CHILLY-MAZARIN;ile de France ;France;ZAC DE LA VIGNE AUX LOUPS, RUE BLAISE PASCAL, 91380 CHILLY-MAZARIN;48.7063696;2.316561832;—;Beton
+Cemex;Cem;Cemex Agence Coignières;78000;COIGNIERES-MAUREPAS;ile de France ;France;ROUTE DU MESNIL ST-DENIS, 78310 COIGNIERES-MAUREPAS;48.74711;1.928575;—;Beton
+Cemex;Cem;Cemex Agence Herblay;95000;HERBLAY CEDEX;ile de France ;France;Z.I., 2, AVENUE PAUL LANGEVIN, 95228 HERBLAY CEDEX;49.004824;2.170951;—;Beton
+Cemex;Cem;Cemex Agence Limay;78000;LIMAY;ile de France ;France;3, IMPASSE DES CARRIERES, PARC DE LA ROCADE, 78520 LIMAY;48.994616;1.733719;—;Beton
+Cemex;Cem;Cemex Agence Nanterre;92000;NANTERRE;ile de France ;France;16, AVENUE DES GUILLERAIES, 92000 NANTERRE;48.895318;2.18514;—;Beton
+Cemex;Cem;Cemex Agence Pantin;93000;PANTIN;ile de France ;France;110 BIS, AV. DU GENERAL LECLER, 93500 PANTIN;48.90025985;2.423264598;—;Beton
+Cemex;Cem;Cemex Agence Paris 12;75000;Paris;ile de France ;France;12, RUE VAN GOGH, 75012 PARIS;48.843942;2.372008;—;Beton
+Cemex;Cem;Cemex Agence Meaux;77000;MEAUX;ile de France ;France;4, RUE SAMUEL MORSE, Z.I. NORD, 77100 MEAUX;48.962351;2.915275;—;Beton
+Cemex;Cem;Cemex Agence Melun Nord (Moissy Cramayel);77000;MOISSY CRAMAYEL;ile de France ;France;231 AVENUE ALBERT EINSTEIN, Z.I. MOISSY-CRAMAYEL, 77550 MOISSY-CRAMAYEL;48.621554;2.570187;—;Beton
+Cemex;Cem;Cemex Agence Melun Sud-Est (Vaux Le Penil);77000;VAUX-LE-PENIL;ile de France ;France;905, AVENUE SAINT-JUST, Z.I. DE VAUX LE PENIL, 77000 VAUX-LE-PENIL;48.534062;2.687857;—;Beton
+Cemex;Cem;Cemex Unite de production beton de Tolbiac;75000;Paris;ile de France ;France;70 Quai Panhard et Levassor, 75013 Paris, France;48.8308663;2.3813099;—;Beton
+Cemex;Cem;Cemex Unite de production beton de Bondy;93000;Bondy;ile de France ;France;5 Quai Hubertine Auclert, 93140 Bondy, France;48.90717205;2.479129128;—;Beton
+Cemex;Cem;Cemex Unite de production beton de Rosny-sur-Seine;78000;Rosny-sur-Seine;ile de France ;France;Z.A.C. des Marceaux, Rue Gustave Eiffel, 78710 Rosny-sur-Seine, France;48.99397462;1.654164288;—;Beton
+Cemex;Cem;Cemex Unite de production beton d’Evry;91000;Evry;ile de France ;France;48 rue des Paveurs, 91000 Evry, France;48.628375;2.461848;—;Beton
+Cemex;Cem;Cemex Unite de production beton d’Aubervilliers;93000;Aubervilliers;ile de France ;France;29 rue Lucien Lefranc, 93300 Aubervilliers, France;48.910457;2.374322;—;Beton
+Cemex;Cem;Cemex Unite de production beton de Mitry-Mory;77000;Mitry-Mory;ile de France ;France;Z.I. de Mitry-Compans, Rue Decauville, 77297 Mitry-Mory, France;48.98427274;2.627064478;—;Beton
+Cemex;Cem;Cemex Unite de production beton de Nanterre;92000;Nanterre;ile de France ;France;Rue Lavoisier, 92000 Nanterre, France;48.89746187;2.17673757;—;Beton
+Cemex;Cem;Cemex Unite de production beton de Dourdan;91000;Dourdan;ile de France ;France;La Longerie, RD 838, 91410 Dourdan, France;48.54494118;2.018811817;—;Beton
+Cemex;Cem;Cemex Unite de production beton de Pontault-Combault;77000;Pontault-Combault;ile de France ;France;Rue du Luxembourg, 77340 Pontault-Combault, France;48.79804941;2.629164561;—;Beton
+Cemex;Cem;Cemex Unite de production beton de Port Victor;75000;Paris;ile de France ;France;26 quai d'Issy-les-Moulineaux, 75015 Paris, France;48.8364531;2.2672445;—;Beton
+Cemex;Cem;Cemex Unite de production beton de Palaiseau;91000;Palaiseau;ile de France ;France;2 rue Paul Doumer, 91120 Palaiseau, France;48.723515;2.248294;—;Beton
+Cemex;Cem;Cemex Unite de production beton d'Athis-Mons;91000;Athis-Mons;ile de France ;France;17 quai de l'Orge, 91200 Athis-Mons, France;48.7050433;2.3986024;—;Beton
+Cemex;Cem;Cemex Port de Saint-Denis-l'Etoile;93000;Saint-Denis-l'Etoile;ile de France ;France;3 quai de Saint-Ouen, 93200 Saint-Denis-l'Etoile, France;48.92766767;2.33870899;—;Beton
+Cemex;Cem;Cemex Port d’Aubervilliers;93000;Aubervilliers;ile de France ;France;Quai Lucien Lefranc, 93300 Aubervilliers, France;48.90942433;2.374871306;—;Beton
+Cemex;Cem;Cemex Port d’Evry;91000;Evry;ile de France ;France;38 route des Paveurs, 91000 Evry, France;48.62796432;2.462402642;—;Beton
+Cemex;Cem;Cemex Port de Tolbiac;75000;Paris;ile de France ;France;70 quai Panhard et Levassor, 75013 Paris, France;48.8308663;2.3813099;—;Beton
+Cemex;Cem;Cemex Port d’Ivry;94000;Ivry Sur Seine;ile de France ;France;3 Quai Marcel Boyer, 94200 Ivry-sur-Seine, France;48.82487;2.389281;—;Beton
+Cemex;Cem;Cemex Port de Bercy;75000;Paris;ile de France ;France;1 quai de Bercy, 75012 Paris, France;48.83158659;2.384735682;—;Beton
+Cemex;Cem;Cemex Unite de production beton de Gennevilliers;92000;Gennevilliers;ile de France ;France;5 Route annexe de la Seine, 92230 Gennevilliers, France;48.94223;2.292504;—;Beton
+CAUPAMAT CADENZ;CAUP;Caddenz Palissades Orly;94000;ORLY;ile de France ;France;40 Rue du Kéfir, 94310 Orly;48.7490;2.3920;—;Marquage /Balisage 
+CAUPAMAT CADENZ;CAUP;Caddenz Paris Nord;92000;GENNEVILLIERS;ile de France ;France;114 Avenue Laurent Cély, 92230 Gennevilliers;48.9180;2.3070;—;Marquage /Balisage 
+CAUPAMAT CADENZ;CAUP;Caddenz Paris Est;77000;CROISSY-BEAUBOURG;ile de France ;France;25 Allée Léon Jouhaux, 77183 Croissy-Beaubourg;48.8290;2.6600;—;Marquage /Balisage 
+CAUPAMAT CADENZ;CAUP;Caddenz Paris Sud;91000;WISSOUS ;ile de France ;France;27 Avenue Ampère, 91320 Wissous;48.7340;2.3290;—;Marquage /Balisage 
+Tersen;Ter;Tersen etablissement Cosson;95000;Louvres;ile de France ;France;9 Avenue du Beaumontoir, 95380 Louvres;49.0450;2.5070;—;Materiel blanc 
+Tersen;Ter;Tersen etablissement Picheta;95000; Pierrelaye;ile de France ;France;13 Route de Conflans, 95480 Pierrelaye;49.0200;2.1600;—;Materiel blanc 
+Tersen;Ter;Tersen etablissement SMS;91000; Marcoussis;ile de France ;France;CD35 – 10 Route de Montlhéry, 91460 Marcoussis;48.6420;2.2310;—;Materiel blanc 
+Tersen;Ter;Tersen Developpement;93000; L’Île-Saint-Denis;ile de France ;France;15 bis Quai du Châtelier, 93450 L’Île-Saint-Denis;48.9340;2.3380;—;Materiel blanc 
+pum;pum;PUM - Agence Aulnay sous Bois;93000;AULNAY SOUS BOIS;ile de France ;France;20, RUE BLAISE PASCAL, ZA LES MARDELLES, 93600 AULNAY-SOUS-BOIS;48.9495;2.4935;—;Fournitures
+pum;pum;PUM - Agence Chennevieres;94000;CHENNEVIERES SUR MARNE;ile de France ;France;ZONE DES BORDES, 13 BIS RUE CONDORCET, 94430 CHENNEVIERES-SUR-MARNE;48.7980;2.5330;—;Fournitures
+pum;pum;PUM - Agence Chevilly Larue;94000;CHEVILLY-LARUE;ile de France ;France;193, BOULEVARD JEAN MERMOZ, 94550 CHEVILLY-LARUE;48.7680;2.3520;—;Fournitures
+pum;pum;PUM - Agence Chilly Mazarin;91000;CHILLY-MAZARIN;ile de France ;France;ZAC DE LA VIGNE AUX LOUPS, RUE BLAISE PASCAL, 91380 CHILLY-MAZARIN;48.7050;2.3120;—;Fournitures
+pum;pum;PUM - Agence Coignières;78000;COIGNIERES-MAUREPAS;ile de France ;France;ROUTE DU MESNIL ST-DENIS, 78310 COIGNIERES-MAUREPAS;48.7450;1.9200;—;Fournitures
+pum;pum;PUM - Agence Herblay;95000;HERBLAY CEDEX;ile de France ;France;Z.I., 2, AVENUE PAUL LANGEVIN, 95228 HERBLAY CEDEX;48.9900;2.1640;—;Fournitures
+pum;pum;PUM - Agence Limay;78000;LIMAY;ile de France ;France;3, IMPASSE DES CARRIERES, PARC DE LA ROCADE, 78520 LIMAY;48.9950;1.7420;—;Fournitures
+pum;pum;PUM - Agence Nanterre;92000;NANTERRE;ile de France ;France;16, AVENUE DES GUILLERAIES, 92000 NANTERRE;48.9010;2.2090;—;Fournitures
+pum;pum;PUM - Agence Pantin;93000;PANTIN;ile de France ;France;110 BIS, AV. DU GENERAL LECLER, 93500 PANTIN;48.8950;2.4090;—;Fournitures
+pum;pum;PUM - Agence Paris 12;75000;Paris;ile de France ;France;12, RUE VAN GOGH, 75012 PARIS;48.8350;2.4120;—;Fournitures
+pum;pum;PUM - Agence Meaux;77000;MEAUX;ile de France ;France;4, RUE SAMUEL MORSE, Z.I. NORD, 77100 MEAUX;48.9690;2.9050;—;Fournitures
+pum;pum;PUM - Agence Melun Nord (Moissy Cramayel);77000;MOISSY CRAMAYEL;ile de France ;France;231 AVENUE ALBERT EINSTEIN, Z.I. MOISSY-CRAMAYEL, 77550 MOISSY-CRAMAYEL;48.6260;2.6010;—;Fournitures
+pum;pum;PUM - Agence Melun Sud-Est (Vaux Le Penil);77000;VAUX-LE-PENIL;ile de France ;France;905, AVENUE SAINT-JUST, Z.I. DE VAUX LE PENIL, 77000 VAUX-LE-PENIL;48.5280;2.6800;—;Fournitures
+YPREMA;yp;YPREMA emerainville;77000;EMERAINVILLE;ile de France ;France;11, allée de la Briarde, 77184 EMERAINVILLE;48.8167;2.6167;—;Materiel blanc 
+YPREMA;yp;YPREMA Bonneuil-sur-Marne;94000;BONNEUIL-SUR-MARNE;ile de France ;France;63-64, route de l’île St Julien  94380 BONNEUIL-SUR-MARNE;48.7760;2.4850;—;Materiel blanc 
+YPREMA;yp;"YPREMA Massy 2
+
+";91000; MASSY;ile de France ;France;14, route de la Bonde ZI de la Bonde 91300  MASSY;48.7317;2.2680;—;Materiel blanc 
+YPREMA;yp;"YPREMA Massy 1
+
+";91000;MASSY;ile de France ;France;11, route de la Bonde ZI de la Bonde 91300 MASSY;48.7317;2.2680;—;Materiel blanc 
+YPREMA;yp;YPREMA Trappes;78000;TRAPPES;ile de France ;France;Allée Basile Levraud  78190 TRAPPES;48.7740;2.0170;—;Materiel blanc 
+YPREMA;yp;YPREMA Gennevilliers;92000;GENNEVILLIERS;ile de France ;France;7, route du Môle Central 92230 GENNEVILLIERS;48.9330;2.3000;—;Materiel blanc 
+YPREMA;yp;YPREMA Dammartin en Goële;77000; DAMMARTIN-EN-GOELE;ile de France ;France;Rue Clément Ader Chemin communal 77230  DAMMARTIN-EN-GOELE;49.0538;2.6817;—;Materiel blanc 
+YPREMA;yp;YPREMA Lagny?sur?Marne;77000;LAGNY-SUR-MARNE;ile de France ;France;6, rue Freycinet Port de Lagny 77400 LAGNY-SUR-MARNE;48.8770;2.7060;—;Materiel blanc 
+Fransbonhomme;FRANS ;Fransbonhomme Vaux-le-Penil;77000;VAUX-LE-PENIL;ile de France ;France;475 rue Raymond Hervillard, 77000 Vaux-le-Pénil, France;48.5333;2.6667;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Fresnes;94000;Fresnes;ile de France ;France;6 rue de Chevilly, 94260 Fresnes, France;48.7500;2.3167;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Buchelay;78000;Buchelay;ile de France ;France;10 rue Champs Odes, 78200 Buchelay, France;48.9790;1.6710;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Gennevilliers (Port);92000;Gennevilliers;ile de France ;France;Impasse des Petits Marais, 92230 Gennevilliers, France;48.9330;2.3000;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Coulommiers;77000;Coulommiers;ile de France ;France;2 bis rue des Margats, 77120 Coulommiers, France;48.8147;3.0833;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Taverny;95000;Taverny;ile de France ;France;1 boulevard Chaptal, 95150 Taverny, France;49.0250;2.2167;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Nanterre;92000;Nanterre;ile de France ;France;52 rue du Port, 92000 Nanterre, France;48.8924;2.2066;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Champagne-sur-Oise;95000;Champagne-sur-Oise;ile de France ;France;Rue Lavoisier, 95660 Champagne-sur-Oise, France;49.1360;2.2420;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Coignières;78000;COIGNIERES-MAUREPAS;ile de France ;France;Rue Laënnec, 78310 Coignières, France;48.7470;1.9200;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Les Mureaux;78000;Les Mureaux;ile de France ;France;2 rue Levassor, 78130 Les Mureaux, France;48.9910;1.9090;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Lagny-sur-Marne;77000;Lagny-sur-Marne;ile de France ;France;135 rue Freycinet, 77400 Lagny-sur-Marne, France;48.8770;2.7070;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Gennevilliers;92000;Gennevilliers;ile de France ;France;110 avenue Général de Gaulle, 92230 Gennevilliers, France;48.9333;2.3000;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Montereau-Fault-Yonne;77000;Montereau-Fault-Yonne;ile de France ;France;2 rue Clomarts, 77130 Montereau-Fault-Yonne, France;48.3833;2.9500;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Fleury-Merogis Reseaux TP;91000;Fleury-Merogis;ile de France ;France;Rue Adrienne Bolland ZAC des Ciroliers 91700 Fleury-Mérogis France;48.6320;2.3640;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Meaux Reseaux TP;77000;Meaux;ile de France ;France;8 rue Thomas Edison ZI Nord 77100 Meaux France;48.964354;2.916562;—;Fournitures
+Fransbonhomme;FRANS ;Fransbonhomme Goussainville Reseaux TP;95000;Goussainville;ile de France ;France;Rue Jean Pierre Timbaud 95190 Goussainville France;49.0207;2.4463;—;Fournitures
+BSM;BSM;Beton Solutions Mobiles Lognes;77000;Lognes;ile de France ;France;9 allée Lech Walesa - Zac du Parc d'activités de Paris-Est;48.814;2.663;—;Beton
+BSM;BSM;Beton Solutions Mobiles Limay;78000;Limay;ile de France ;France;Ducas 291 Avenue Daniel Dreyfous;48.991;1.693;—;Beton
+BSM;BSM;Beton Solutions Mobiles Thiverval-Grignon;78000;Thiverval-Grignon;ile de France ;France;Chemin des Nourrices;48.849;1.950;—;Beton
+BSM;BSM;Beton Solutions Mobiles Saint-Germain-lès-Arpajon;91000;Saint-Germain-les-Arpajon;ile de France ;France;Chemin des Cinquante Arpents, 3 Rue Henri Rol Tanguy;48.625;2.275;—;Beton
+BSM;BSM;Beton Solutions Mobiles Bretigny-sur-Orge;91000;Bretigny-sur-Orge;ile de France ;France;Rue de la Desserte Industrielle;48.611;2.309;—;Beton
+BSM;BSM;Beton Solutions Mobiles Nanterre;92000;Nanterre;ile de France ;France;Electrique Chemin d'Accès à L'Usine;48.889;2.206;—;Beton
+BSM;BSM;Beton Solutions Mobiles Gennevilliers;92000;Gennevilliers;ile de France ;France;22 Chemin des Petits Marais;48.926;2.295;—;Beton
+BSM;BSM;Beton Solutions Mobiles La Courneuve;93000;La Courneuve;ile de France ;France;65 Avenue Jean Mermoz;48.932;2.387;—;Beton
+BSM;BSM;Beton Solutions Mobiles Le Bourget;93000;Le Bourget;ile de France ;France;12 Avenue Hélène Boucher;48.936;2.418;—;Beton
+BSM;BSM;Beton Solutions Mobiles L'Île-Saint-Denis;93000;L'Île-Saint-Denis;ile de France ;France;12 & 14 Quai Le Chatelier;48.924;2.368;—;Beton
+BSM;BSM;Beton Solutions Mobiles Villeneuve-Saint-Georges;94000;Villeneuve-Saint-Georges;ile de France ;France;Zone Industrielle des Graviers, 8 Avenue Winston Churchill;48.740;2.474;—;Beton
+BSM;BSM;Beton Solutions Mobiles Le Thillay;95000;Le Thillay;ile de France ;France;7 Avenue du Capitaine Girard;49.000;2.430;—;Beton
+SODEXTRA;SOD;SODEXTRA Saclay;91000;Saclay;ile de France ;France;le Bas de L Étang, 91400 Saclay;48.716;2.166;—;Materiel blanc 
+SODEXTRA;SOD;SODEXTRA Villiers-le-Bacle;91000;Villiers-le-Bâcle;ile de France ;France;6 Rue des Graviers, 91190 Villiers-le-Bâcle;48.664;2.134;—;Materiel blanc 
+COLBER;COL;AGENCE COLBER – Thiais;94000;Thiais;ile de France ;France;169 avenue de Fontainebleau, 94320 Thiais, France;48.7401;2.4016;—;Petits engins
+COLBER;COL;AGENCE COLBER – Torcy;77000;Torcy;ile de France ;France;86 rue des Coutures Z.I., 77200 Torcy, France;48.8605;2.7019;—;Petits engins
+COLBER;COL;AGENCE COLBER – Voisins-le-Bretonneux;78000;Voisins-le-Bretonneux;ile de France ;France;21/23 rue des Tilleuls ZAC Voisins-Merantais, 78960 Voisins-le-Bretonneux, France;48.7743;2.0231;—;Petits engins
+COLBER;COL;AGENCE COLBER – Le Bourget;93000;Le Bourget;ile de France ;France;70 rue Albert Thomas, 93350 Le Bourget, France;48.9452;2.4365;—;Petits engins
+COLBER;COL;AGENCE COLBER – etampes;91000;Morigny-Champigny;ile de France ;France;7 Rue des Rochettes, 91150 Morigny-Champigny, France;48.4300;2.2200;—;Petits engins
+SOL 78;SOL;SOL 78;78000;Vernouillet;ile de France ;France;14 Avenue des Coquelicots, 78540 Vernouillet, France;48.9450;1.5560;—;Beton
+SPME;SP;SPME;92000;Gennevilliers;ile de France ;France;13 Route du Môle Central, 92230 Gennevilliers, France;48.9360;2.3080;—;Materiel noir 
+VIACOV;VIA;VIACOV ;95000;Génicourt;ile de France ;France;39 rue des Fossettes, 95650 Génicourt, France;49.0615;2.0505;—;Petits engins
+Bouvelot TP;Boul;Bouvelot TP;93000;Les Pavillons-sous-Bois;ile de France ;France;23 Allée d'Athènes, 93320 Les Pavillons-sous-Bois, France;48.9345;2.5180;—;Materiel blanc 
+CHEUTIN;CHE;CHEUTIN Loc'Hiam Mitry;77000;Mitry-Mory;ile de France ;France;7 rue Galilée – ZA de la Villette aux Aulnes, 77290 Mitry-Mory, France;48.9822;2.5823;—;Petits engins
+CHEUTIN;CHE;Cheutin Breux-Jouy;91000;Breux-Jouy;ile de France ;France;Route de Rimoron, 91650 Breux-Jouy, France;48.6248;2.2327;—;Petits engins
+GO POMPE;GO;GO POMPE;95000;Argenteuil;ile de France ;France;Pavillon 8, 87 Rue de Calais, 95100 Argenteuil, France;48.9475;2.2470;—;Beton
+SNB ;SNB ;SNB ;94000; VALENTON;ile de France ;France;1 RUE VASCO DE GAMA, 94460 VALENTON;48.76761;2.44956;—;Materiel blanc 
+EVA INDUSTRIES;EVA;EVA INDUSTRIES;93000;AULNAY SOUS BOIS;ile de France ;France;"ZONE INDUSTRIELLE DES MARDELLES
+RUE BLAISE PASCAL
+93605 AULNAY SOUS BOIS";48.9412151;2.49707110;—;Materiel noir 
+EVO LOCATION;EVO; EVO LOCATION;95000;SAINT-OUEN-L'AUMONE;ile de France ;France;39 AVENUE DU CHATEAU, 95310 SAINT-OUEN-L'AUMONE;49.0419;2.1122;—;Grand engins
+UTD ;UTD ;UTD ;95000;PUISEUX-PONTOISE ;ile de France ;France;ROUTE DE BOISSY, 95650 PUISEUX-PONTOISE;49.0550;2.0230;—;Grand engins
+SCIABBARRASI RENT;scia;SCIABBARRASI RENT;91000;MORANGIS ;ile de France ;France;"3 AVENUE DESCARTES
+91420 MORANGIS ";48.700755;2.333800;—;Grand engins
+LM DISTRIBUTION;LM DISTRIBUTION;LM DISTRIBUTION;95000;GOUSSAINVILLE;ile de France ;France;"6-8 , Rue Joseph Jacquard
+95190 GOUSSAINVILLE";49.0244063;2.4546856;—;pierres naturelles
+IDF MARQUAGE;IDF MARQUAGE;IDF MARQUAGE;95000;GOUSSAINVILLE;ile de France ;France;ZI DES BETHUNES, 27 RUE DE BRETAGNE, 95310 SAINT-OUEN-L'AUMONE;49.0435;2.1213;—;Marquage /Balisage 
+EUROPIERRE;EUROPIERRE;EUROPIERRE;77000;BUSSY-SAINT-GEORGES;ile de France ;France;"19 Bis, Avenue Graham Bell
+77600 BUSSY-SAINT-GEORGES";48.833027;2.694203;—;pierres naturelles
+RFM;RFM;RFM;77000; ROISSY-EN-BRIE;ile de France ;France;PARC D ACTIVITE DE LA FORGE, 3 IMPASSE DE LA LIEVRERIE, 77680 ROISSY-EN-BRIE;48.8247;2.6198;—;Recyclage des matériaux
+ATPL CASELAS ;ATPL CASELAS ;ATPL CASELAS ;95000; SAINT-OUEN-L'AUMONE;ile de France ;France;PARC ACTIVITES VERT GALANT, 70 AVENUE DU CHATEAU, 95310 SAINT-OUEN-L'AUMONE;49.0418;2.1125;—;Petits engins
